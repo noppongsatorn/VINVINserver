@@ -1,0 +1,135 @@
+<?
+include('../app/_mysql.php');
+include('../app/std.php');
+
+
+
+
+//$resultcount = mysqli_num_rows($result_user['ID']);
+//echo $resultcount;
+
+
+$OTP=rand(1000,9999);
+$Tel=$_POST['Tel'];
+
+  $sql = "
+  INSERT INTO user (
+  	PID,
+    Name,
+    Email,
+    Tel,
+    Birthday,
+    deviceToken,
+    deviceType,
+    Status,
+    OTP
+    )
+  VALUES (
+  	'".$_POST['PID']."',
+    '".$_POST['Name']."',
+    '".$_POST['Email']."',
+    '".$_POST['Tel']."',
+    '".$_POST['Birthday']."',
+    '".$_POST['deviceToken']."',
+    '".$_POST['deviceType']."',
+    'noOTP',
+    '".$OTP."'
+    )";
+
+mysql_query($sql);
+echo mysql_error();
+
+//_____________________ SMS __________________________________________________________
+
+/*
+$sms = new thsms();
+ 
+$sms->username   = 'noppongsatorn';
+$sms->password   = 'Nop00327';
+ 
+$a = $sms->getCredit();
+var_dump( $a);
+ 
+$b = $sms->send( '0000', $Tel, 'VINVIN รหัสยืนยัน(OTP)='.$OTP);
+var_dump( $b);
+ 
+class thsms
+{
+     var $api_url   = 'http://www.thsms.com/api/rest';
+     var $username  = null;
+     var $password  = null;
+ 
+    public function getCredit()
+    {
+        $params['method']   = 'credit';
+        $params['username'] = $this->username;
+        $params['password'] = $this->password;
+ 
+        $result = $this->curl( $params);
+ 
+        $xml = @simplexml_load_string( $result);
+ 
+        if (!is_object($xml))
+        {
+            return array( FALSE, 'Respond error');
+ 
+        } else {
+ 
+            if ($xml->credit->status == 'success')
+            {
+                return array( TRUE, $xml->credit->status);
+            } else {
+                return array( FALSE, $xml->credit->message);
+            }
+        }
+    }
+ 
+    public function send( $from='0000', $to=null, $message=null)
+    {
+        $params['method']   = 'send';
+        $params['username'] = $this->username;
+        $params['password'] = $this->password;
+ 
+        $params['from']     = $from;
+        $params['to']       = $to;
+        $params['message']  = $message;
+ 
+        if (is_null( $params['to']) || is_null( $params['message']))
+        {
+            return FALSE;
+        }
+ 
+        $result = $this->curl( $params);
+        $xml = @simplexml_load_string( $result);
+        if (!is_object($xml))
+        {
+            return array( FALSE, 'Respond error');
+        } else {
+            if ($xml->send->status == 'success')
+            {
+                return array( TRUE, $xml->send->uuid);
+            } else {
+                return array( FALSE, $xml->send->message);
+            }
+        }
+    }
+     
+    private function curl( $params=array())
+    {
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $this->api_url);
+        curl_setopt($ch, CURLOPT_HEADER, 0);
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query( $params));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+ 
+        $response  = curl_exec($ch);
+        $lastError = curl_error($ch);
+        $lastReq = curl_getinfo($ch);
+        curl_close($ch);
+ 
+        return $response;
+    }
+}
+*/
+?>

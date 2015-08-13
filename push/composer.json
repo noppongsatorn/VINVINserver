@@ -1,0 +1,6 @@
+{
+    "require": {
+        "sly/notification-pusher": "2.x",
+        "gomoob/php-pushwoosh": "~1.0"
+    }
+}
