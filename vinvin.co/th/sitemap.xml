@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://vinvin.co/images/bg.jpg</loc>
+    <lastmod>2015-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://vinvin.co/images/mockup.png</loc>
+    <lastmod>2015-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://vinvin.co/images/appstore.png</loc>
+    <lastmod>2015-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://vinvin.co/images/boss.png</loc>
+    <lastmod>2015-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://vinvin.co/images/oam.png</loc>
+    <lastmod>2015-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://vinvin.co/images/choguun.png</loc>
+    <lastmod>2015-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://vinvin.co/images/nop.png</loc>
+    <lastmod>2015-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://vinvin.co/images/mockup383x344.png</loc>
+    <lastmod>2015-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://vinvin.co/index.html</loc>
+    <lastmod>2015-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://vinvin.co/phone/index.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-device-width: 960px)" href="http://vinvin.co/tablet/index.html"/>
+  </url>
+  <url>
+    <loc>http://vinvin.co/about-us.html</loc>
+    <lastmod>2015-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://vinvin.co/phone/about-us.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-device-width: 960px)" href="http://vinvin.co/tablet/about-us.html"/>
+  </url>
+  <url>
+    <loc>http://vinvin.co/term---condition.html</loc>
+    <lastmod>2015-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://vinvin.co/phone/term---condition.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-device-width: 960px)" href="http://vinvin.co/tablet/term---condition.html"/>
+  </url>
+  <url>
+    <loc>http://vinvin.co/faq.html</loc>
+    <lastmod>2015-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://vinvin.co/phone/faq.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-device-width: 960px)" href="http://vinvin.co/tablet/faq.html"/>
+  </url>
+  <url>
+    <loc>http://vinvin.co/privacy-policy.html</loc>
+    <lastmod>2015-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-device-width: 370px)" href="http://vinvin.co/phone/privacy-policy.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-device-width: 960px)" href="http://vinvin.co/tablet/privacy-policy.html"/>
+  </url>
+</urlset>

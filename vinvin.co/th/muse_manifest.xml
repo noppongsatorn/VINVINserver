@@ -1,0 +1,64 @@
+<manifest alg="2" build="30" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="4047930162"/>
+    <file name="master_a-master.css" crc="4287441593" ref="privacy-policy:index:term---condition:faq:about-us"/>
+    <file name="privacy-policy.css" crc="35153054" ref="privacy-policy"/>
+    <file name="index.css" crc="3854252937" ref="index"/>
+    <file name="term---condition.css" crc="81997521" ref="term---condition"/>
+    <file name="faq.css" crc="501197493" ref="faq"/>
+    <file name="about-us.css" crc="3960135460" ref="about-us"/>
+  </folder>
+  <folder name="scripts">
+    <file name="museredirect.js" crc="236897542" ref="index:about-us:term---condition:faq:privacy-policy"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about-us:term---condition:faq:privacy-policy:tablet>index:tablet>faq:tablet>term---condition:tablet>about-us:phone>index:phone>faq:phone>term---condition:phone>about-us:tablet>privacy-policy:phone>privacy-policy"/>
+    <file name="museutils.js" crc="3992981318" ref="index:about-us:term---condition:faq:privacy-policy:tablet>index:tablet>faq:tablet>term---condition:tablet>about-us:phone>index:phone>faq:phone>term---condition:phone>about-us:tablet>privacy-policy:phone>privacy-policy"/>
+    <file name="jquery.tobrowserwidth.js" crc="317228635" ref="index:about-us:term---condition:faq:privacy-policy:tablet>index:tablet>faq:tablet>term---condition:tablet>privacy-policy:tablet>about-us:phone>index:phone>faq:phone>term---condition:phone>privacy-policy:phone>about-us"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index:about-us:term---condition:faq:privacy-policy:tablet>index:tablet>faq:tablet>term---condition:tablet>about-us:phone>index:phone>faq:phone>term---condition:phone>about-us:tablet>privacy-policy:phone>privacy-policy"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3956991090" ref="tablet>index:tablet>faq:tablet>term---condition:tablet>privacy-policy:tablet>about-us:phone>index:phone>faq:phone>term---condition:phone>privacy-policy:phone>about-us:index:about-us:term---condition:faq:privacy-policy"/>
+  </folder>
+  <folder name="images">
+    <file name="bg.jpg" crc="145349070" ref="index:about-us:term---condition:faq:privacy-policy:tablet>index:tablet>faq:tablet>term---condition:tablet>privacy-policy:tablet>about-us:phone>index:phone>faq:phone>term---condition:phone>privacy-policy:phone>about-us"/>
+    <file name="mockup.png" crc="158469501" ref="index:tablet>index"/>
+    <file name="appstore.png" crc="406697627" ref="index:tablet>index:phone>index"/>
+    <file name="boss.png" crc="3890048709" ref="about-us:tablet>about-us:phone>about-us"/>
+    <file name="oam.png" crc="111818836" ref="about-us:tablet>about-us:phone>about-us"/>
+    <file name="choguun.png" crc="4244069743" ref="about-us:tablet>about-us:phone>about-us"/>
+    <file name="nop.png" crc="3992213545" ref="about-us:tablet>about-us:phone>about-us"/>
+    <file name="mockup383x344.png" crc="4125101163" ref="phone>index"/>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="index.css" crc="483781534" ref="tablet>index"/>
+      <file name="term---condition.css" crc="4135635337" ref="tablet>term---condition"/>
+      <file name="faq.css" crc="252778792" ref="tablet>faq"/>
+      <file name="about-us.css" crc="454600545" ref="tablet>about-us"/>
+      <file name="master_a-master.css" crc="4276022816" ref="tablet>about-us:tablet>faq:tablet>term---condition:tablet>index:tablet>privacy-policy"/>
+      <file name="privacy-policy.css" crc="3802069964" ref="tablet>privacy-policy"/>
+    </folder>
+    <file name="index.html" crc="67805702" mt="1431007916138"/>
+    <file name="faq.html" crc="4147825533" mt="1431007907096"/>
+    <file name="term---condition.html" crc="4002710088" mt="1431007937640"/>
+    <file name="about-us.html" crc="4026153705" mt="1431007957666"/>
+    <file name="privacy-policy.html" crc="3815689" mt="1431007949765"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="faq.css" crc="4262211138" ref="phone>faq"/>
+      <file name="term---condition.css" crc="495874037" ref="phone>term---condition"/>
+      <file name="about-us.css" crc="271215163" ref="phone>about-us"/>
+      <file name="index.css" crc="384014002" ref="phone>index"/>
+      <file name="master_a-master.css" crc="4140295594" ref="phone>index:phone>term---condition:phone>privacy-policy:phone>faq:phone>about-us"/>
+      <file name="privacy-policy.css" crc="119046844" ref="phone>privacy-policy"/>
+    </folder>
+    <file name="index.html" crc="3812803125" mt="1431007987705"/>
+    <file name="faq.html" crc="32535560" mt="1431007979228"/>
+    <file name="term---condition.html" crc="3924652557" mt="1431008005976"/>
+    <file name="about-us.html" crc="286349615" mt="1431008027540"/>
+    <file name="privacy-policy.html" crc="4158708724" mt="1431008014894"/>
+  </folder>
+  <file name="index.html" crc="3997949296" mt="1431008281055"/>
+  <file name="about-us.html" crc="3773703932" mt="1431008234758"/>
+  <file name="term---condition.html" crc="3770471329" mt="1431008234760"/>
+  <file name="faq.html" crc="462821996" mt="1431008234762"/>
+  <file name="privacy-policy.html" crc="3800528374" mt="1431008234763"/>
+</manifest>

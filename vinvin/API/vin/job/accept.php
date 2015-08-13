@@ -28,9 +28,12 @@ if($dJob['Status']=='RequestReceived')
 	    \"job\": {
 	        \"pickLat\": \"".$dJob['pickLat']."\",
 	        \"pickLong\": \"".$dJob['pickLong']."\",
+	        \"pickName\": \"".$dJob['pickName']."\",
 	        \"desLat\": \"".$dJob['desLat']."\",
 	        \"desLong\": \"".$dJob['desLong']."\",
-	        \"locationDetail\": \"".$dJob['locationDetail']."\"
+	        \"desName\": \"".$dJob['desName']."\",
+	        \"locationDetail\": \"".$dJob['locationDetail']."\",
+	        \"distance\": \"".$dJob['distance']."\"
 	    },
 	    \"user\": {
 	        \"tel\": \"".$dUser['Tel']."\"

@@ -1,0 +1,53 @@
+#u599-5
+{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 72px;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	position: relative;
+}
+
+#u599
+{
+	color: #61CCEA;
+}
+
+#u599-2
+{
+	color: #63CDEB;
+}
+
+#u606
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #000000;
+	position: relative;
+}
+
+#u609-5,#u610-5,#u611-5
+{
+	text-align: center;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: arimo, sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u609,#u610,#u611
+{
+	font-size: 12px;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+}
+
+#u607-4,#u608-4
+{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+	line-height: 1.8;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	position: relative;
+}
+
