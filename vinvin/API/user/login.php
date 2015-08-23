@@ -4,11 +4,14 @@ include('../../app/std.php');
 
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
-
-if((isset($_GET['email']))&&(isset($_GET['passSHA1']))) {
-{	
+//    
+//    echo $_GET['email']." ".$_GET['passSHA1'];
+    
+//if((isset($_GET['email']))&&(isset($_GET['passSHA1']))) {
+//{	
 	$email = $_GET['email'];
 	$passSHA1 = $_GET['passSHA1'];
+    
 
 	$r = mysql_query("SELECT * FROM user WHERE Email='".$email."'");
 	$d = mysql_fetch_assoc($r);
@@ -32,14 +35,14 @@ if((isset($_GET['email']))&&(isset($_GET['passSHA1']))) {
 		}
 		";
 	}
-}
-else{
-	echo "
-	{
-	    \"isSuccess\": false,
-	    \"errorMessages\": {}
-	}
-	";
-	
-}
+//}
+//else{
+//	echo "
+//	{
+//	    \"isSuccess\": false,
+//	    \"errorMessages\": {}
+//	}
+//	";
+//	
+//}
 ?>

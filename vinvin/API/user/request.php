@@ -78,6 +78,33 @@ if ($d['PID']) {
       \"PID\": \"".$d['PID']."\"
     }
   ";
+
+  $sql = "
+  INSERT INTO rating (jobPID) VALUES ('".$PID."')";
+  mysql_query($sql);
+
+
+  $sql = "
+  INSERT INTO `nop`.`recent_location_pickup` (`ID`, `userID`, `name`, `lat`, `long`) 
+  VALUES (NULL,
+    '".$userID."',
+    '".$pickName."',
+    '".$pickLat."',
+    '".$pickLong."'
+    )";
+
+  mysql_query($sql);
+
+  $sql = "
+  INSERT INTO `nop`.`recent_location_destination` (`ID`, `userID`, `name`, `lat`, `long`) 
+  VALUES (NULL,
+    '".$userID."',
+    '".$desName."',
+    '".$desLat."',
+    '".$desLong."'
+    )";
+
+  mysql_query($sql);
 }
 else{
   echo "

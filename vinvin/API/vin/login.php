@@ -4,8 +4,8 @@ include('../../app/std.php');
 
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
-if((isset($_GET['idCardNumber']))&&(isset($_GET['licensePlate']))) {
-	    
+//if((isset($_GET['idCardNumber']))&&(isset($_GET['licensePlate']))) {
+    
 	$idCardNumber = $_GET['idCardNumber'];
 	$licensePlate =  str_replace(" ","",$_GET['licensePlate']);
 	// $licensePlate = $_GET['licensePlate'];
@@ -32,14 +32,14 @@ if((isset($_GET['idCardNumber']))&&(isset($_GET['licensePlate']))) {
 		}
 		";
 	}
-}
-
-else{
-	echo "
-	{
-	    \"isSuccess\": false,
-	    \"errorMessages\": {}
-	}
-	";
-}
+//}
+//
+//else{
+//	echo "
+//	{
+//	    \"isSuccess\": false,
+//	    \"errorMessages\": {}
+//	}
+//	";
+//}
 ?>
